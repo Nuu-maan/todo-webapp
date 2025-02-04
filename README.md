@@ -1,37 +1,79 @@
 <div align="center">
-  <h1 style="font-size: 2.5em; margin-bottom: 0.5em;">
-    <span style="color: #0070f3;">Todo</span>Webapp
-  </h1>
-  <div style="display: flex; gap: 1em; justify-content: center; margin-bottom: 2em;">
-    <img src="https://img.shields.io/badge/Next.js-15-black?logo=next.js">
-    <img src="https://img.shields.io/badge/TypeScript-5-blue?logo=typescript">
-    <img src="https://img.shields.io/badge/Prisma-5-2D3748?logo=prisma">
+  <h1>Next.js Todo Webapp</h1>
+  <p>A modern task management solution built with Next.js 15 🔥</p>
+
+  <div>
+    <img src="https://img.shields.io/github/stars/Nuu-maan/todo-webapp?style=for-the-badge&logo=github&color=yellow" alt="Stars">
+    <img src="https://img.shields.io/github/forks/Nuu-maan/todo-webapp?style=for-the-badge&logo=github&color=green" alt="Forks">
+    <img src="https://img.shields.io/github/issues/Nuu-maan/todo-webapp?style=for-the-badge&logo=github&color=blue" alt="Issues">
+    <img src="https://img.shields.io/github/license/Nuu-maan/todo-webapp?style=for-the-badge&logo=mit" alt="License">
   </div>
 </div>
 
-<div style="display: grid; grid-template-columns: 1fr 1fr; gap: 2em; max-width: 1200px; margin: 0 auto;">
+## ✨ Features
 
-<!-- Left Column -->
-<div>
+- 🚀 Next.js 15 App Router Architecture
+- 🔒 Kinde Authentication Integration
+- 📱 Responsive Mobile-First Design
+- 📦 Prisma ORM with PostgreSQL
+- 🎨 TailwindCSS Styling
+- 📝 Real-time Updates
+- ✅ TypeScript 5 Codebase
 
-## 🚀 Features
-- 🔐 Secure Authentication with Kinde
-- 📱 Mobile-First Responsive Design
-- ⚡ Real-time Task Syncing
-- 📊 Advanced Analytics Dashboard
-- 🛡️ Type-Safe Architecture
-- 🌐 Internationalization Support
+## 🚀 Quick Start
 
-## 📦 Installation
 ```bash
+# Clone repository
 git clone https://github.com/Nuu-maan/todo-webapp.git
+
+# Install dependencies
 cd todo-webapp
 npm install
-npm run dev
-```
 
-</div><!-- Right Column --><div>
-🛠 Tech Stack
-<div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 1em;"> <div style="display: flex; align-items: center; gap: 0.5em;"> <img src="https://nextjs.org/static/favicon/favicon-16x16.png" width="20"> Next.js 15 </div> <div style="display: flex; align-items: center; gap: 0.5em;"> <img src="https://www.typescriptlang.org/favicon-32x32.png" width="20"> TypeScript 5 </div> <div style="display: flex; align-items: center; gap: 0.5em;"> <img src="https://prismalens.vercel.app/header-logo.svg" width="20"> Prisma 5 </div> <div style="display: flex; align-items: center; gap: 0.5em;"> <img src="https://tailwindcss.com/favicon-32x32.png" width="20"> Tailwind CSS </div> </div>
-👥 Contributors
-<div style="display: flex; gap: 1em; justify-content: center; margin-top: 2em;"> <a href="https://github.com/Nuu-maan" style="text-decoration: none;"> <img src="https://avatars.githubusercontent.com/Nuu-maan" width="80" style="border-radius: 50%; border: 2px solid #e5e7eb;"> <p align="center" style="margin: 0.5em 0;">Nuu-maan</p> </a> <a href="https://github.com/anisvsc" style="text-decoration: none;"> <img src="https://avatars.githubusercontent.com/anisvsc" width="80" style="border-radius: 50%; border: 2px solid #e5e7eb;"> <p align="center" style="margin: 0.5em 0;">Anish Gupta</p> </a> </div></div> </div><div style="max-width: 800px; margin: 2em auto; text-align: center;"> <h2>📄 License</h2> <p>MIT Licensed | View <a href="LICENSE">full license</a></p> <a href="https://github.com/Nuu-maan/todo-webapp"> <img src="https://img.shields.io/badge/View_Repository-181717?style=for-the-badge&logo=github"> </a> </div>
+# Configure environment
+cp .env.example .env.local
+
+# Start development server
+npm run dev
+BASH
+```
+## 🛠️ Tech Stack
+
+| Category       | Technologies                                                                 |
+|----------------|-----------------------------------------------------------------------------|
+| **Frontend**   | Next.js 15, React 18, TypeScript 5                                         |
+| **Styling**    | TailwindCSS 3, CSS Modules                                                 |
+| **Backend**    | Next.js API Routes, Prisma 5                                               |
+| **Database**   | PostgreSQL                                                                 |
+| **Auth**       | Kinde Authentication                                                       |
+| **Deployment** | Vercel                                                                     |
+
+## 👥 Contributors
+
+<div align="center">
+  <a href="https://github.com/Nuu-maan">
+    <img src="https://avatars.githubusercontent.com/Nuu-maan" width="100" style="border-radius:50%;box-shadow:0 2px 8px rgba(0,0,0,0.2);margin:10px">
+    <br>
+    <strong>Nuu-maan</strong>
+  </a>
+  
+  <a href="https://github.com/anisvsc">
+    <img src="https://avatars.githubusercontent.com/anisvsc" width="100" style="border-radius:50%;box-shadow:0 2px 8px rgba(0,0,0,0.2);margin:10px">
+    <br>
+    <strong>Anish Gupta</strong>
+  </a>
+</div>
+
+## 📄 License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+<div align="center" style="margin-top: 2rem;">
+  <p>Made with ❤️ by 
+    <a href="https://github.com/Nuu-maan" style="color: #0070f3; text-decoration: none;">Nuu-maan</a> • 
+    <a href="https://github.com/anisvsc" style="color: #0070f3; text-decoration: none;">Anish Gupta</a>
+  </p>
+  <a href="https://github.com/Nuu-maan/todo-webapp">
+    <img src="https://img.shields.io/badge/⭐_Star_this_Repo-%23FFD700?style=for-the-badge&logo=github">
+  </a>
+</div>

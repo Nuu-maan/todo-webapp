@@ -1,105 +1,108 @@
 <div align="center">
 
-<h1>🚀 Next.js Todo Enterprise</h1>
+# 🚀 Next.js Todo Pro
 
-[![GitHub Stars](https://img.shields.io/github/stars/Nuu-maan/todo-webapp?logo=starship&color=F4D03F)](https://github.com/Nuu-maan/todo-webapp/stargazers)
-[![License](https://img.shields.io/github/license/Nuu-maan/todo-webapp?logo=open-source-initiative&color=2ECC71)](LICENSE)
-[![Next.js](https://img.shields.io/badge/Next.js-14.0+-000000?logo=next.js)](https://nextjs.org/)
+[![GitHub Stars](https://img.shields.io/github/stars/Nuu-maan/todo-webapp?style=flat-square&logo=github&color=5865F2)](https://github.com/Nuu-maan/todo-webapp/stargazers)
+[![License](https://img.shields.io/badge/license-MIT-97CA00?style=flat-square)](LICENSE)
+[![Next.js](https://img.shields.io/badge/Next.js-14.0+-000?style=flat-square&logo=next.js)](https://nextjs.org/)
 
-[Live Demo](https://todo-webapp-demo.vercel.app) | [Documentation](/docs) | [Enterprise Support](mailto:support@todo-enterprise.com)
-
-![Enterprise Task Management](https://i.pinimg.com/736x/0f/ed/9c/0fed9c050dba713078325dfb028ceeb5.jpg)
+![Todo App Preview](https://i.pinimg.com/736x/0f/ed/9c/0fed9c050dba713078325dfb028ceeb5.jpg)
 
 </div>
 
-## 🌟 Key Features
+## ✨ Features
 
-### Enterprise Capabilities
 <div align="center">
 
-| Security & Compliance | Collaboration & Productivity | Administration & Control |
-|-----------------------|------------------------------|--------------------------|
-| 🔐 SAML/SSO Integration | 👥 Real-time Team Workspaces | 🏢 Organizational Hierarchy |
-| 🛡️ GDPR/HIPAA Ready | 💬 Comments & Mentions | 📊 Usage Analytics Dashboard |
-| 🔑 RBAC & Permissions | 📅 Shared Calendars | 🔄 Bulk Operations |
-| 📝 Audit Logging | 🚀 Task Automation | 📜 Policy Management |
+| Core Functionality | Collaboration | Security |
+|--------------------|---------------|----------|
+| ✅ Task Management | 👥 Shared Workspaces | 🔐 OAuth 2.0 |
+| 📅 Due Dates | 💬 Comments | 🔑 RBAC |
+| 🏷️ Labels & Filters | 📊 Activity Feed | 🔒 Encryption |
+| 🔄 Sync Across Devices | 📁 File Attachments | 📝 Audit Logs |
 
 </div>
 
-## 🏛️ Architecture Overview
+## 🏗 Architecture
 
 ```mermaid
 graph TD
-    Client-->CDN
-    CDN-->LoadBalancer
-    LoadBalancer-->API
-    API-->Database[(PostgreSQL)]
-    API-->Cache[(Redis)]
-    API-->Search[(Elasticsearch)]
-    style Client fill:#4CAF50
-    style CDN fill:#2196F3
-    style LoadBalancer fill:#9C27B0
+    A[Client Layer] --> B[Next.js App Router]
+    B --> C[API Layer]
+    C --> D[Service Layer]
+    D --> E[Data Layer]
+    
+    subgraph "Frontend"
+    A --> F[Components]
+    F --> G[Hooks]
+    G --> H[State Management]
+    end
+    
+    subgraph "Backend"
+    C --> I[Auth Service]
+    C --> J[Task Service]
+    C --> K[User Service]
+    end
+    
+    subgraph "Database"
+    E --> L[PostgreSQL]
+    E --> M[Redis Cache]
+    end
+
+    style A fill:#2ecc71,stroke:#fff,stroke-width:2px
+    style B fill:#3498db,stroke:#fff,stroke-width:2px
+    style C fill:#9b59b6,stroke:#fff,stroke-width:2px
+    style D fill:#e74c3c,stroke:#fff,stroke-width:2px
+    style E fill:#f1c40f,stroke:#fff,stroke-width:2px
 ```
 
-## 🚦 Getting Started
+## 🛠️ Tech Stack
 
-### Prerequisites
-- Node.js 18.x
-- PostgreSQL 15+
-- Redis 7+
+**Frontend**
+- **Framework**: Next.js 14 (App Router)
+- **Language**: TypeScript 5.3
+- **Styling**: Tailwind CSS + CSS Modules
+- **State**: Zustand
+- **Components**: Shadcn UI
 
-### Installation
+**Backend**
+- **Runtime**: Node.js 18 LTS
+- **ORM**: Prisma
+- **Database**: PostgreSQL
+- **Cache**: Redis
+- **Validation**: Zod
+
+## 🚀 Quick Start
 
 ```bash
 # Clone repository
 git clone https://github.com/Nuu-maan/todo-webapp.git
 
 # Install dependencies
-npm install
+pnpm install
 
 # Configure environment
 cp .env.example .env.local
 
-# Database setup
-npx prisma migrate deploy
+# Run database migrations
+pnpm db:push
 
 # Start development server
-npm run dev
-```
-
-## 🧩 Core Technologies
-
-**Frontend**
-- Next.js 14 (App Router)
-- TypeScript 5.3
-- Tailwind CSS 3.4
-- React Aria Components
-
-**Backend**
-- Next.js API Routes
-- Prisma ORM 5.7
-- Zod Validation 3.22
-- Redis OM 0.4
-
-**Infrastructure**
-- Docker 24.0
-- Kubernetes 1.28
-- Prometheus 2.47
-- Grafana 10.1
-
-## 📈 Enterprise Metrics
-
-```mermaid
-pie
-    title System Requirements
-    "High Availability" : 45
-    "Security Compliance" : 30
-    "Performance" : 15
-    "Scalability" : 10
+pnpm dev
 ```
 
 ## 📄 License
 
-This project is licensed under the **MIT License** - see [LICENSE](LICENSE) for details.  
-Enterprise edition includes additional proprietary modules under commercial license.
+MIT License © 2024 [Numan](https://github.com/Nuu-maan)  
+See [LICENSE](LICENSE) for full text.
+
+---
+
+<div align="center">
+
+**Need Help?**  
+[Open an Issue](https://github.com/Nuu-maan/todo-webapp/issues)  
+[View Documentation](/docs)
+
 </div>
+

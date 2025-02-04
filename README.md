@@ -1,94 +1,79 @@
 <div align="center">
-  <h1>📝 Next.js Todo App</h1>
-  <p>A modern, type-safe todo application built with Next.js 15 ⚡</p>
+  <h1>Next.js Todo Webapp</h1>
+  <p>A modern task management solution built with Next.js 15 🔥</p>
 
   <div>
-    <img src="https://img.shields.io/badge/Next.js-15-black?style=for-the-badge&logo=next.js" alt="Next.js" />
-    <img src="https://img.shields.io/badge/TypeScript-5-blue?style=for-the-badge&logo=typescript" alt="TypeScript" />
-    <img src="https://img.shields.io/badge/Prisma-5-purple?style=for-the-badge&logo=prisma" alt="Prisma" />
-    <br/>
-    <img src="https://img.shields.io/badge/TailwindCSS-3-cyan?style=for-the-badge&logo=tailwind-css" alt="TailwindCSS" />
-    <img src="https://img.shields.io/badge/Kinde-Auth-orange?style=for-the-badge&logo=auth0" alt="Kinde" />
+    <img src="https://img.shields.io/github/stars/Nuu-maan/todo-webapp?style=for-the-badge&logo=github&color=yellow" alt="Stars">
+    <img src="https://img.shields.io/github/forks/Nuu-maan/todo-webapp?style=for-the-badge&logo=github&color=green" alt="Forks">
+    <img src="https://img.shields.io/github/issues/Nuu-maan/todo-webapp?style=for-the-badge&logo=github&color=blue" alt="Issues">
+    <img src="https://img.shields.io/github/license/Nuu-maan/todo-webapp?style=for-the-badge&logo=mit" alt="License">
   </div>
-
-  <p>
-    <a href="https://github.com/yourusername/todo-app/stargazers">
-      <img src="https://img.shields.io/github/stars/yourusername/todo-app?style=social&logo=github" alt="Stars" />
-    </a>
-    <a href="https://github.com/yourusername/todo-app/network/members">
-      <img src="https://img.shields.io/github/forks/yourusername/todo-app?style=social&logo=github" alt="Forks" />
-    </a>
-  </p>
 </div>
 
 ## ✨ Features
 
-- **Modern Stack**: Next.js 15 + TypeScript 5 + Prisma 5
-- **Secure Auth**: Kinde Authentication with JWT
-- **Real-time Updates**: Instant UI synchronization
-- **Responsive Design**: Mobile-first TailwindCSS layout
-- **Database**: PostgreSQL with Prisma ORM
-- **Testing**: Jest + React Testing Library
+- 🚀 Next.js 15 App Router Architecture
+- 🔒 Kinde Authentication Integration
+- 📱 Responsive Mobile-First Design
+- 📦 Prisma ORM with PostgreSQL
+- 🎨 TailwindCSS Styling
+- 📝 Real-time Updates
+- ✅ TypeScript 5 Codebase
 
 ## 🚀 Quick Start
 
-```bash
+BASH
 # Clone repository
-git clone https://github.com/yourusername/todo-app.git
+git clone https://github.com/Nuu-maan/todo-webapp.git
 
 # Install dependencies
-cd todo-app
+cd todo-webapp
 npm install
 
-# Setup environment
+# Configure environment
 cp .env.example .env.local
 
 # Start development server
 npm run dev
-```
+BASH
+
 ## 🛠️ Tech Stack
 
-<div align="center">
-
-| Layer          | Technologies                                                                 |
+| Category       | Technologies                                                                 |
 |----------------|-----------------------------------------------------------------------------|
-| **Frontend**   | Next.js 15, React 18, TypeScript 5                                          |
-| **Styling**    | TailwindCSS 3, CSS Modules                                                  |
-| **Backend**    | Next.js API Routes, Prisma 5                                                |
-| **Database**   | PostgreSQL                                                                  |
-| **Auth**       | Kinde Authentication                                                        |
-| **Deployment** | Vercel, Docker                                                              |
+| **Frontend**   | Next.js 15, React 18, TypeScript 5                                         |
+| **Styling**    | TailwindCSS 3, CSS Modules                                                 |
+| **Backend**    | Next.js API Routes, Prisma 5                                               |
+| **Database**   | PostgreSQL                                                                 |
+| **Auth**       | Kinde Authentication                                                       |
+| **Deployment** | Vercel                                                                     |
 
-</div>
-
-## 📚 Documentation
-
-- [📘 Setup Guide](docs/SETUP.md)
-- [🔧 API Reference](docs/API.md)
-- [🚀 Deployment Guide](docs/DEPLOYMENT.md)
-- [🤝 Contributing](docs/CONTRIBUTING.md)
-
-## 🌟 Star History
-
-[![Star History Chart](https://api.star-history.com/svg?repos=yourusername/todo-app&type=Date)](https://star-history.com/#yourusername/todo-app&Date)
-
-## 🤝 Contributors
+## 👥 Contributors
 
 <div align="center">
-  <a href="https://github.com/nuu-maan">
-    <img src="https://avatars.githubusercontent.com/u/12345678?v=4" width="80" style="border-radius:50%"/>
+  <a href="https://github.com/Nuu-maan">
+    <img src="https://avatars.githubusercontent.com/Nuu-maan" width="100" style="border-radius:50%;box-shadow:0 2px 8px rgba(0,0,0,0.2);margin:10px">
+    <br>
+    <strong>Nuu-maan</strong>
   </a>
+  
   <a href="https://github.com/anisvsc">
-    <img src="https://avatars.githubusercontent.com/u/87654321?v=4" width="80" style="border-radius:50%"/>
+    <img src="https://avatars.githubusercontent.com/anisvsc" width="100" style="border-radius:50%;box-shadow:0 2px 8px rgba(0,0,0,0.2);margin:10px">
+    <br>
+    <strong>Anish Gupta</strong>
   </a>
 </div>
 
-## 📝 License
+## 📄 License
 
-MIT License - See [LICENSE](LICENSE) for details
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-<div align="center">
-  <br/>
-  <p>Made with ❤️ by <a href="https://github.com/nuu-maan">Nuu-maan</a> & <a href="https://github.com/anisvsc">Anish Gupta</a></p>
-  <p>Show your support by giving a ⭐️!</p>
+<div align="center" style="margin-top: 2rem;">
+  <p>Made with ❤️ by 
+    <a href="https://github.com/Nuu-maan" style="color: #0070f3; text-decoration: none;">Nuu-maan</a> • 
+    <a href="https://github.com/anisvsc" style="color: #0070f3; text-decoration: none;">Anish Gupta</a>
+  </p>
+  <a href="https://github.com/Nuu-maan/todo-webapp">
+    <img src="https://img.shields.io/badge/⭐_Star_this_Repo-%23FFD700?style=for-the-badge&logo=github">
+  </a>
 </div>

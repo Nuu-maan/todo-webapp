@@ -121,9 +121,11 @@ npx prisma migrate dev
 npm run dev
 ```
 
-## 📄 License
+## 📜 License 
 
-This project is licensed under the **[MIT License](LICENSE)** - see the [LICENSE](LICENSE) file for full details.
+[![MIT License](https://img.shields.io/badge/License-MIT-blue.svg?style=flat-square)](https://opensource.org/licenses/MIT)
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for full text.
 
 ---
 
@@ -134,3 +136,5 @@ This project is licensed under the **[MIT License](LICENSE)** - see the [LICENSE
 
 </div>
 
+
+**Copyright © 2024 Numan & Anish Gupta** - [View License](LICENSE)

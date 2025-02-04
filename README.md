@@ -1,29 +1,63 @@
+
 <div align="center">
 
 # 🚀 Next.js Todo Pro
 
-[![GitHub Stars](https://img.shields.io/github/stars/Nuu-maan/todo-webapp?style=flat-square&logo=github&color=5865F2)](https://github.com/Nuu-maan/todo-webapp/stargazers)
-[![License](https://img.shields.io/badge/license-MIT-97CA00?style=flat-square)](LICENSE)
-[![Next.js](https://img.shields.io/badge/Next.js-14.0+-000?style=flat-square&logo=next.js)](https://nextjs.org/)
+[![GitHub Stars](https://img.shields.io/github/stars/Nuu-maan/todo-webapp?style=for-the-badge&logo=github&color=5865F2&labelColor=000000)](https://github.com/Nuu-maan/todo-webapp/stargazers)
+[![Open Issues](https://img.shields.io/github/issues/Nuu-maan/todo-webapp?style=for-the-badge&logo=git&color=FFA500&labelColor=000000)](https://github.com/Nuu-maan/todo-webapp/issues)
+[![License](https://img.shields.io/badge/license-MIT-97CA00?style=for-the-badge&logo=open-source-initiative&labelColor=000000)](LICENSE)
 
-![Todo App Preview](https://i.pinimg.com/736x/0f/ed/9c/0fed9c050dba713078325dfb028ceeb5.jpg)
+![Star History Chart](https://api.star-history.com/svg?repos=Nu-maan/todo-webapp&type=Date&theme=dark)
 
 </div>
 
-## ✨ Features
+## 🌟 Key Features
 
 <div align="center">
 
-| Core Functionality | Collaboration | Security |
-|--------------------|---------------|----------|
-| ✅ Task Management | 👥 Shared Workspaces | 🔐 OAuth 2.0 |
-| 📅 Due Dates | 💬 Comments | 🔑 RBAC |
-| 🏷️ Labels & Filters | 📊 Activity Feed | 🔒 Encryption |
-| 🔄 Sync Across Devices | 📁 File Attachments | 📝 Audit Logs |
+| 🛠 Core Functionality    | 🌐 Collaboration       | 🔒 Security         |
+|-------------------------|-----------------------|--------------------|
+| 📝 Rich Text Tasks      | 👥 Shared Workspaces  | 🔐 OAuth 2.0       |
+| 🗓 Smart Due Dates       | 💬 Threaded Comments  | 🔑 RBAC            |
+| 🏷 Custom Labels         | 📊 Activity Analytics | 🔒 E2E Encryption  |
+| 🔄 Cross-device Sync     | 📁 File Attachments    | 📝 Audit Logs      |
 
 </div>
 
-## 🏗 Architecture
+## 🧑💻 Core Team
+
+<div align="center">
+
+<table>
+  <tr>
+    <td align="center">
+      <a href="https://github.com/Nuu-maan">
+        <img src="https://avatars.githubusercontent.com/Nuu-maan" width="150" style="border-radius:50%">
+        <br/>
+        <strong>Numan</strong>
+      </a>
+      <br/>
+      <a href="https://github.com/Nuu-maan?tab=followers">
+        <img src="https://img.shields.io/github/followers/Nuu-maan?style=social&logo=github">
+      </a>
+    </td>
+    <td align="center">
+      <a href="https://github.com/anisvsc">
+        <img src="https://avatars.githubusercontent.com/anisvsc" width="150" style="border-radius:50%">
+        <br/>
+        <strong>Anish Gupta</strong>
+      </a>
+      <br/>
+      <a href="https://github.com/anisvsc?tab=followers">
+        <img src="https://img.shields.io/github/followers/anisvsc?style=social&logo=github">
+      </a>
+    </td>
+  </tr>
+</table>
+
+</div>
+
+## 🏗 Architecture Overview
 
 ```mermaid
 graph TD
@@ -56,53 +90,48 @@ graph TD
     style E fill:#f1c40f,stroke:#fff,stroke-width:2px
 ```
 
-## 🛠️ Tech Stack
+## 🛠 Technology Stack
 
-**Frontend**
-- **Framework**: Next.js 14 (App Router)
-- **Language**: TypeScript 5.3
-- **Styling**: Tailwind CSS + CSS Modules
-- **State**: Zustand
-- **Components**: Shadcn UI
+<div align="center">
 
-**Backend**
-- **Runtime**: Node.js 18 LTS
-- **ORM**: Prisma
-- **Database**: PostgreSQL
-- **Cache**: Redis
-- **Validation**: Zod
+| Layer       | Technologies                                                                                  |
+|-------------|-----------------------------------------------------------------------------------------------|
+| **Frontend**| Next.js 14, TypeScript 5, Tailwind CSS, React Aria, Zustand                                    |
+| **Backend** | Node.js 18, Prisma, PostgreSQL, Redis, Zod                                                    |
+| **DevOps**  | Docker, GitHub Actions, Vercel, Prometheus, Grafana                                           |
+| **Tools**   | ESLint, Prettier, Husky, Commitlint, Renovate                                                 |
 
-## 🚀 Quick Start
+</div>
+
+## 🚀 Getting Started
 
 ```bash
 # Clone repository
 git clone https://github.com/Nuu-maan/todo-webapp.git
 
 # Install dependencies
-pnpm install
+npm install
 
 # Configure environment
 cp .env.example .env.local
 
-# Run database migrations
-pnpm db:push
+# Run migrations
+npx prisma migrate dev
 
 # Start development server
-pnpm dev
+npm run dev
 ```
 
 ## 📄 License
 
-MIT License © 2024 [Numan](https://github.com/Nuu-maan)  
-See [LICENSE](LICENSE) for full text.
+This project is licensed under the **[MIT License](LICENSE)** - see the [LICENSE](LICENSE) file for full details.
 
 ---
 
 <div align="center">
 
-**Need Help?**  
-[Open an Issue](https://github.com/Nuu-maan/todo-webapp/issues)  
-[View Documentation](/docs)
+[![GitHub Contributors](https://img.shields.io/github/contributors/Nuu-maan/todo-webapp?style=for-the-badge&logo=github&color=2BAF2B&labelColor=000000)](https://github.com/Nuu-maan/todo-webapp/graphs/contributors)
+[![Last Commit](https://img.shields.io/github/last-commit/Nuu-maan/todo-webapp?style=for-the-badge&logo=github&color=9B59B6&labelColor=000000)](https://github.com/Nuu-maan/todo-webapp/commits/main)
 
 </div>
 

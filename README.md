@@ -31,7 +31,7 @@
   <!-- Sync Card -->
   <div style="padding: 2rem; background: #f8f9fa; border-radius: 16px">
     <div style="display: flex; align-items: center; gap: 1rem; margin-bottom: 1rem">
-      <img src="https://swr.vercel.app/logo.svg" 
+      <img src="https://en.wikipedia.org/wiki/File:SWR_Logo_Orange.svg" 
            width="60" 
            alt="SWR Logo"
            style="display: block; height: auto; max-width: 100%">

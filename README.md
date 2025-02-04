@@ -135,4 +135,4 @@ npm run dev
 </div>
 
 
-**Copyright © 2024 Numan & Anish Gupta** - [View License](https://github.com/Nuu-maan/todo-webapp?tab=MIT-1-ov-file)
+**Copyright © 2025 Numan & Anish Gupta** - [View License](https://github.com/Nuu-maan/todo-webapp?tab=MIT-1-ov-file)

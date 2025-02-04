@@ -34,9 +34,9 @@ npm run dev
 Visit http://localhost:3000 to see your app.
 📚 Documentation
 
-Setup Guide
-Contributing Guide
-API Documentation
+Setup Guide <br>
+Contributing Guide<br>
+API Documentation<br>
 
 🤝 Contributing
 We welcome contributions! Please see our Contributing Guide for details.

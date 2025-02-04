@@ -12,26 +12,27 @@
 
 ---
 
-## 🎯 Core Features
+## 🛠 Core Features
 
 <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 1.5rem; margin: 3rem 0">
-  <div style="padding: 2rem; background: #1a1a1a; border-radius: 16px; border: 1px solid #2a2a2a">
+  <!-- Auth Card -->
+  <div style="padding: 2rem; background: #f8f9fa; border-radius: 16px">
     <div style="display: flex; align-items: center; gap: 1rem; margin-bottom: 1rem">
-      <img src="https://www.kinde.com/static/logo-507d3a1f4e9e7c2a7d0d0a3e4e3a3d3a.svg" width="40">
+      <img src="https://www.kinde.com/static/images/logo.svg" width="40" alt="Kinde Logo">
       <h3 style="margin: 0">Enterprise Auth</h3>
     </div>
     <p>Secure authentication with Kinde including SSO, RBAC, and audit logs</p>
   </div>
-  
-  <div style="padding: 2rem; background: #1a1a1a; border-radius: 16px; border: 1px solid #2a2a2a">
+
+  <!-- Sync Card -->
+  <div style="padding: 2rem; background: #f8f9fa; border-radius: 16px">
     <div style="display: flex; align-items: center; gap: 1rem; margin-bottom: 1rem">
-      <img src="https://swr.vercel.app/logo.svg" width="40">
+      <img src="https://img.shields.io/badge/SWR-000000?style=for-the-badge&logo=vercel&logoColor=white" alt="SWR Logo">
       <h3 style="margin: 0">Real-time Sync</h3>
     </div>
     <p>Instant cross-device synchronization using SWR's stale-while-revalidate</p>
   </div>
 </div>
-
 ---
 
 ## 🛠️ Installation Guide
@@ -88,21 +89,31 @@ graph TD
 
 ## 🤝 Contributors
 
-<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 2rem; margin: 3rem 0">
-  <div style="text-align: center">
-    <a href="https://github.com/Nuu-maan">
-      <img src="https://avatars.githubusercontent.com/u/46296754?v=4" width="120" style="border-radius: 50%; border: 3px solid #0070f3">
-      <h3>Numan</h3>
-      <p>Core Architect</p>
-    </a>
+## 🤝 Contributors
+
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 2rem; margin: 3rem 0">
+  <div style="text-align: center; padding: 1.5rem; background: #f8f9fa; border-radius: 12px; transition: transform 0.2s">
+    <div style="margin: 0 auto; width: 120px; height: 120px; border-radius: 50%; background: #e9ecef; display: grid; place-items: center">
+      <span style="font-size: 2.5rem">👨💻</span>
+    </div>
+    <h3 style="margin: 1rem 0">Numan</h3>
+    <div style="display: flex; gap: 1rem; justify-content: center">
+      <a href="https://github.com/Nuu-maan">
+        <img src="https://img.shields.io/badge/Profile-181717?style=flat-square&logo=github">
+      </a>
+    </div>
   </div>
-  
-  <div style="text-align: center">
-    <a href="https://github.com/anisvsc">
-      <img src="https://avatars.githubusercontent.com/u/47601396?v=4" width="120" style="border-radius: 50%; border: 3px solid #00c7ff">
-      <h3>Anish Gupta</h3>
-      <p>Fullstack Developer</p>
-    </a>
+
+  <div style="text-align: center; padding: 1.5rem; background: #f8f9fa; border-radius: 12px; transition: transform 0.2s">
+    <div style="margin: 0 auto; width: 120px; height: 120px; border-radius: 50%; background: #e9ecef; display: grid; place-items: center">
+      <span style="font-size: 2.5rem">👨💻</span>
+    </div>
+    <h3 style="margin: 1rem 0">Anish Gupta</h3>
+    <div style="display: flex; gap: 1rem; justify-content: center">
+      <a href="https://github.com/anisvsc">
+        <img src="https://img.shields.io/badge/Profile-181717?style=flat-square&logo=github">
+      </a>
+    </div>
   </div>
 </div>
 

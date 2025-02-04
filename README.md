@@ -72,17 +72,6 @@ npm run dev
   </div>
 </div>
 
----
-
-## 📡 API Endpoints
-| Method | Endpoint       | Description                |
-|--------|----------------|----------------------------|
-| `GET`  | `/api/tasks`   | Get all tasks              |
-| `POST` | `/api/tasks`   | Create new task            |
-| `PUT`  | `/api/tasks/:id` | Update task              |
-| `DELETE` | `/api/tasks/:id` | Delete task             |
-
----
 
 ## 👥 Contributors
 <div align="center" style="display: flex; gap: 2rem; justify-content: center; margin: 3rem 0;">

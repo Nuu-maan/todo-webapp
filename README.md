@@ -17,27 +17,31 @@
 
 <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 1.5rem; margin: 3rem 0">
   <!-- Auth Card -->
-  <div style="padding: 2rem; background: #f8f9fa; border-radius: 16px">
+  <div style="padding: 2rem; background: #f8f9fa; border-radius: 16px; border-left: 4px solid #6366f1">
     <div style="display: flex; align-items: center; gap: 1rem; margin-bottom: 1rem">
-      <img src="https://assets.website-files.com/6450b31696e25f8aa6cdd7b0/6450b31696e25f1d9dcdd8c7_Kindelogo.svg" 
-           width="120" 
-           alt="Kinde Logo"
-           style="display: block; height: auto; max-width: 100%">
-      <h3 style="margin: 0">Enterprise Auth</h3>
+      <div style="font-size: 2rem">🔒</div>
+      <div>
+        <h3 style="margin: 0">Enterprise Auth</h3>
+        <div style="display: flex; gap: 0.5rem; margin-top: 0.5rem">
+          <img src="https://img.shields.io/badge/Kinde-Auth-6366f1?style=flat-square&logo=openid&logoColor=white" alt="Kinde">
+        </div>
+      </div>
     </div>
-    <p>Secure authentication with Kinde including SSO, RBAC, and audit logs</p>
+    <p>Secure authentication with SSO, RBAC, and audit logs</p>
   </div>
 
   <!-- Sync Card -->
-  <div style="padding: 2rem; background: #f8f9fa; border-radius: 16px">
+  <div style="padding: 2rem; background: #f8f9fa; border-radius: 16px; border-left: 4px solid #f472b6">
     <div style="display: flex; align-items: center; gap: 1rem; margin-bottom: 1rem">
-      <img src="https://en.wikipedia.org/wiki/File:SWR_Logo_Orange.svg" 
-           width="60" 
-           alt="SWR Logo"
-           style="display: block; height: auto; max-width: 100%">
-      <h3 style="margin: 0">Real-time Sync</h3>
+      <div style="font-size: 2rem">⚡</div>
+      <div>
+        <h3 style="margin: 0">Real-time Sync</h3>
+        <div style="display: flex; gap: 0.5rem; margin-top: 0.5rem">
+          <img src="https://img.shields.io/badge/SWR-000000?style=flat-square&logo=vercel&logoColor=white" alt="SWR">
+        </div>
+      </div>
     </div>
-    <p>Instant cross-device synchronization using SWR's stale-while-revalidate</p>
+    <p>Instant synchronization using stale-while-revalidate pattern</p>
   </div>
 </div>
 ---

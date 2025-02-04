@@ -1,6 +1,3 @@
-Here's the corrected version with proper code block formatting and verification:
-
-```md
 <div align="center">
   <h1>📝 Next.js Todo App</h1>
   <p>A modern, type-safe todo application built with Next.js 15 ⚡</p>

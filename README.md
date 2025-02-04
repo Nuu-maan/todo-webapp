@@ -27,7 +27,7 @@ Next.js Todo Enterprise is a production-grade task management solution designed 
 - **Premium Support**: 24/7 dedicated enterprise support
 
 ## 🏗️ System Architecture
-
+```mermaid
 graph TD
     A[Client Layer] --> B[Next.js App Router]
     B --> C[API Layer]
@@ -56,7 +56,7 @@ graph TD
     style C fill:#9b59b6,stroke:#fff,stroke-width:2px
     style D fill:#e74c3c,stroke:#fff,stroke-width:2px
     style E fill:#f1c40f,stroke:#fff,stroke-width:2px
-
+```
 ## 💡 Enterprise Features
 
 <table>
@@ -107,7 +107,7 @@ graph TD
 </table>
 
 ## 🚀 Deployment Options
-
+```bash
 # 1. Standard Deployment
 git clone https://github.com/Nuu-maan/todo-webapp.git
 cd todo-webapp
@@ -122,7 +122,7 @@ docker-compose up -d
 
 # 3. Kubernetes Deployment
 kubectl apply -f k8s/
-
+```
 ## 🛠️ Technology Stack
 
 ### Infrastructure

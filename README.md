@@ -125,8 +125,6 @@ npm run dev
 
 [![MIT License](https://img.shields.io/badge/License-MIT-blue.svg?style=flat-square)](https://github.com/Nuu-maan/todo-webapp?tab=MIT-1-ov-file)
 
-This project is licensed under the MIT License - see the [LICENSE](https://github.com/Nuu-maan/todo-webapp?tab=MIT-1-ov-file) file for full text.
-
 ---
 
 <div align="center">
@@ -137,4 +135,4 @@ This project is licensed under the MIT License - see the [LICENSE](https://githu
 </div>
 
 
-**Copyright © 2024 Numan & Anish Gupta** - [View License](LICENSE)
+**Copyright © 2024 Numan & Anish Gupta** - [View License](https://github.com/Nuu-maan/todo-webapp?tab=MIT-1-ov-file)

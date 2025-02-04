@@ -22,7 +22,7 @@
 
 ## 🚀 Quick Start
 
-BASH
+```bash
 # Clone repository
 git clone https://github.com/Nuu-maan/todo-webapp.git
 
@@ -36,7 +36,7 @@ cp .env.example .env.local
 # Start development server
 npm run dev
 BASH
-
+```
 ## 🛠️ Tech Stack
 
 | Category       | Technologies                                                                 |

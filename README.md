@@ -123,9 +123,9 @@ npm run dev
 
 ## 📜 License 
 
-[![MIT License](https://img.shields.io/badge/License-MIT-blue.svg?style=flat-square)](https://opensource.org/licenses/MIT)
+[![MIT License](https://img.shields.io/badge/License-MIT-blue.svg?style=flat-square)](https://github.com/Nuu-maan/todo-webapp?tab=MIT-1-ov-file)
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for full text.
+This project is licensed under the MIT License - see the [LICENSE](https://github.com/Nuu-maan/todo-webapp?tab=MIT-1-ov-file) file for full text.
 
 ---
 

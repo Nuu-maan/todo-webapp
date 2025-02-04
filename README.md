@@ -20,7 +20,6 @@
 | 📝 Rich Text Tasks      | 👥 Shared Workspaces  | 🔐 OAuth 2.0       |
 | 🗓 Smart Due Dates       | 💬 Threaded Comments  | 🔑 RBAC            |
 | 🏷 Custom Labels         | 📊 Activity Analytics | 🔒 E2E Encryption  |
-| 🔄 Cross-device Sync     | 📁 File Attachments    | 📝 Audit Logs      |
 
 </div>
 
@@ -97,9 +96,9 @@ graph TD
 | Layer       | Technologies                                                                                  |
 |-------------|-----------------------------------------------------------------------------------------------|
 | **Frontend**| Next.js 14, TypeScript 5, Tailwind CSS, React Aria, Zustand                                    |
-| **Backend** | Node.js 18, Prisma, PostgreSQL, Redis, Zod                                                    |
-| **DevOps**  | Docker, GitHub Actions, Vercel, Prometheus, Grafana                                           |
-| **Tools**   | ESLint, Prettier, Husky, Commitlint, Renovate                                                 |
+| **Backend** | Node.js 18, Prisma, PostgreSQL, Redis,                                                     |
+| **DevOps**  | Docker, GitHub Actions, Vercel, ,                                            |
+| **Tools**   | ESLint, Prettier, Husky, Commitlint                                                       |
 
 </div>
 

@@ -19,7 +19,6 @@
   <!-- Auth Card -->
   <div style="padding: 2rem; background: #f8f9fa; border-radius: 16px; border-left: 4px solid #6366f1">
     <div style="display: flex; align-items: center; gap: 1rem; margin-bottom: 1rem">
-      <div style="font-size: 2rem">🔒</div>
       <div>
         <h3 style="margin: 0">Enterprise Auth</h3>
         <div style="display: flex; gap: 0.5rem; margin-top: 0.5rem">
@@ -33,7 +32,6 @@
   <!-- Sync Card -->
   <div style="padding: 2rem; background: #f8f9fa; border-radius: 16px; border-left: 4px solid #f472b6">
     <div style="display: flex; align-items: center; gap: 1rem; margin-bottom: 1rem">
-      <div style="font-size: 2rem">⚡</div>
       <div>
         <h3 style="margin: 0">Real-time Sync</h3>
         <div style="display: flex; gap: 0.5rem; margin-top: 0.5rem">

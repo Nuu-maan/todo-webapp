@@ -8,7 +8,7 @@
 
 [Demo](https://todo-webapp-demo.vercel.app) • [Documentation](#documentation) • [Installation](#-installation) • [Contributing](#-contributing)
 
-![Project Banner](https://via.placeholder.com/1200x400/000000/FFFFFF?text=Next.js+Todo+Enterprise)
+![Project Banner](https://i.pinimg.com/736x/0f/ed/9c/0fed9c050dba713078325dfb028ceeb5.jpg)
 
 ## ✨ Features
 

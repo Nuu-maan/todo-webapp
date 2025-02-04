@@ -1,3 +1,4 @@
+
 <div align="center">
   <h1 style="margin: 2rem 0; font-size: 3rem; background: linear-gradient(45deg, #0070f3, #00c7ff); -webkit-background-clip: text; -webkit-text-fill-color: transparent;">
     🚀 Next.js Todo Enterprise
@@ -18,7 +19,7 @@
   <!-- Auth Card -->
   <div style="padding: 2rem; background: #f8f9fa; border-radius: 16px">
     <div style="display: flex; align-items: center; gap: 1rem; margin-bottom: 1rem">
-      <img src="https://www.kinde.com/static/images/logo.svg" width="40" alt="Kinde Logo">
+      <img src="https://kinde.com/logo-dark.svg" width="120" alt="Kinde Logo">
       <h3 style="margin: 0">Enterprise Auth</h3>
     </div>
     <p>Secure authentication with Kinde including SSO, RBAC, and audit logs</p>
@@ -27,12 +28,13 @@
   <!-- Sync Card -->
   <div style="padding: 2rem; background: #f8f9fa; border-radius: 16px">
     <div style="display: flex; align-items: center; gap: 1rem; margin-bottom: 1rem">
-      <img src="https://img.shields.io/badge/SWR-000000?style=for-the-badge&logo=vercel&logoColor=white" alt="SWR Logo">
+      <img src="https://swr.vercel.app/logo.svg" width="40" alt="SWR Logo">
       <h3 style="margin: 0">Real-time Sync</h3>
     </div>
     <p>Instant cross-device synchronization using SWR's stale-while-revalidate</p>
   </div>
 </div>
+
 ---
 
 ## 🛠️ Installation Guide
@@ -89,12 +91,10 @@ graph TD
 
 ## 🤝 Contributors
 
-## 🤝 Contributors
-
 <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 2rem; margin: 3rem 0">
   <div style="text-align: center; padding: 1.5rem; background: #f8f9fa; border-radius: 12px; transition: transform 0.2s">
-    <div style="margin: 0 auto; width: 120px; height: 120px; border-radius: 50%; background: #e9ecef; display: grid; place-items: center">
-      <span style="font-size: 2.5rem">👨💻</span>
+    <div style="margin: 0 auto; width: 120px; height: 120px; border-radius: 50%; overflow: hidden; border: 3px solid #0070f3">
+      <img src="https://github.com/Nuu-maan.png" width="120" alt="Numan's Profile">
     </div>
     <h3 style="margin: 1rem 0">Numan</h3>
     <div style="display: flex; gap: 1rem; justify-content: center">
@@ -105,8 +105,8 @@ graph TD
   </div>
 
   <div style="text-align: center; padding: 1.5rem; background: #f8f9fa; border-radius: 12px; transition: transform 0.2s">
-    <div style="margin: 0 auto; width: 120px; height: 120px; border-radius: 50%; background: #e9ecef; display: grid; place-items: center">
-      <span style="font-size: 2.5rem">👨💻</span>
+    <div style="margin: 0 auto; width: 120px; height: 120px; border-radius: 50%; overflow: hidden; border: 3px solid #00c7ff">
+      <img src="https://github.com/anisvsc.png" width="120" alt="Anish's Profile">
     </div>
     <h3 style="margin: 1rem 0">Anish Gupta</h3>
     <div style="display: flex; gap: 1rem; justify-content: center">

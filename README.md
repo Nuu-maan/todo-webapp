@@ -1,103 +1,90 @@
 <div align="center">
-  <h1>Todo Webapp</h1>
-  <h3>Enterprise Task Management Solution</h3>
+  <h1 style="border-bottom: 3px solid #2B3137; padding-bottom: 1rem;">
+    Todo Web Application
+    <br>
+    <small style="font-size: 1.2rem; color: #6A737D;">Modern Task Management Solution</small>
+  </h1>
 
-  <div style="margin: 2rem 0;">
-    <img src="https://img.shields.io/github/stars/Nuu-maan/todo-webapp?style=flat-square&logo=github&color=blue" alt="Stars">
-    <img src="https://img.shields.io/github/contributors/Nuu-maan/todo-webapp?style=flat-square&logo=github" alt="Contributors">
-    <img src="https://img.shields.io/github/last-commit/Nuu-maan/todo-webapp?style=flat-square&logo=github" alt="Last Commit">
+  <div style="display: flex; gap: 1rem; justify-content: center; margin: 2rem 0;">
+    <a href="https://github.com/Nuu-maan/todo-webapp/stargazers">
+      <img src="https://img.shields.io/github/stars/Nuu-maan/todo-webapp?style=flat-square&logo=github&color=586069&labelColor=24292E" alt="Stars">
+    </a>
+    <a href="https://github.com/Nuu-maan/todo-webapp/network/members">
+      <img src="https://img.shields.io/github/forks/Nuu-maan/todo-webapp?style=flat-square&logo=github&color=586069&labelColor=24292E" alt="Forks">
+    </a>
+    <a href="https://github.com/Nuu-maan/todo-webapp/issues">
+      <img src="https://img.shields.io/github/issues/Nuu-maan/todo-webapp?style=flat-square&logo=github&color=586069&labelColor=24292E" alt="Issues">
+    </a>
   </div>
 </div>
 
----
-
-## 📋 Table of Contents
-- [Features](#-features)
-- [Installation](#-installation)
-- [Tech Stack](#-tech-stack)
-- [Architecture](#-architecture)
-- [Contributors](#-contributors)
-- [License](#-license)
-
----
-
-## ✨ Features
-<div style="columns: 2; column-gap: 2rem;">
-  <div>
-    ✔️ Enterprise Authentication<br>
-    ✔️ Real-time Synchronization<br>
-    ✔️ Role-based Access Control
-  </div>
-  <div>
-    ✔️ Cross-platform Support<br>
-    ✔️ CI/CD Pipeline Ready<br>
-    ✔️ Comprehensive Analytics
-  </div>
-</div>
-
----
-
-## 📦 Installation
+## 🚀 Getting Started
 
 ```bash
 # Clone repository
 git clone https://github.com/Nuu-maan/todo-webapp.git
 
 # Install dependencies
-cd todo-webapp
-npm install
+cd todo-webapp && npm install
 
 # Configure environment
 cp .env.example .env.local
 
 # Start development server
 npm run dev
-```
+``
 
----
+## 🌟 Contributors
 
-## 🛠 Tech Stack
-<table width="100%">
-  <tr>
-    <td width="33%"><strong>Frontend</strong></td>
-    <td width="33%"><strong>Backend</strong></td>
-    <td width="33%"><strong>DevOps</strong></td>
-  </tr>
-  <tr>
-    <td>• Next.js 15<br>• React 18<br>• TypeScript 5</td>
-    <td>• Node.js 20<br>• Prisma 5<br>• PostgreSQL</td>
-    <td>• Docker<br>• GitHub Actions<br>• Vercel</td>
-  </tr>
-</table>
+<div align="center" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 2rem; margin: 3rem 0;">
 
----
+<div style="padding: 1.5rem; background: #F6F8FA; border-radius: 12px; text-align: center;">
+  <a href="https://github.com/Nuu-maan">
+    <img src="https://avatars.githubusercontent.com/Nuu-maan" width="120" style="border-radius: 50%; border: 3px solid #E1E4E8; margin-bottom: 1rem;">
+    <h3 style="margin: 0; color: #24292E;">Nuu-maan</h3>
+    <div style="margin-top: 0.5rem;">
+      <a href="https://github.com/Nuu-maan" style="text-decoration: none;">
+        <img src="https://img.shields.io/badge/GitHub-Profile-181717?style=flat-square&logo=github">
+      </a>
+    </div>
+  </a>
+</div>
 
-## 👥 Contributors
-<div align="center">
-  <div style="display: inline-block; margin: 1rem;">
-    <a href="https://github.com/Nuu-maan">
-      <img src="https://avatars.githubusercontent.com/Nuu-maan" width="80" style="border-radius:50%"><br>
-      <strong>Nuu-maan</strong><br>
-      <em>Lead Developer</em>
-    </a>
+<div style="padding: 1.5rem; background: #F6F8FA; border-radius: 12px; text-align: center;">
+  <a href="https://github.com/anisvsc">
+    <img src="https://avatars.githubusercontent.com/anisvsc" width="120" style="border-radius: 50%; border: 3px solid #E1E4E8; margin-bottom: 1rem;">
+    <h3 style="margin: 0; color: #24292E;">Anish Gupta</h3>
+    <div style="margin-top: 0.5rem;">
+      <a href="https://github.com/anisvsc" style="text-decoration: none;">
+        <img src="https://img.shields.io/badge/GitHub-Profile-181717?style=flat-square&logo=github">
+      </a>
+    </div>
+  </a>
+</div>
+
+</div>
+
+## 🛠 Technology Stack
+
+<div align="center" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(160px, 1fr)); gap: 1rem; margin: 2rem 0;">
+  <div style="padding: 1rem; background: #F6F8FA; border-radius: 8px;">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/8/8e/Nextjs-logo.svg" width="40">
+    <p style="margin: 0.5rem 0 0 0;">Next.js</p>
   </div>
-  
-  <div style="display: inline-block; margin: 1rem;">
-    <a href="https://github.com/anisvsc">
-      <img src="https://avatars.githubusercontent.com/anisvsc" width="80" style="border-radius:50%"><br>
-      <strong>Anish Gupta</strong><br>
-      <em>Core Contributor</em>
-    </a>
+  <div style="padding: 1rem; background: #F6F8FA; border-radius: 8px;">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/4/4c/Typescript_logo_2020.svg" width="40">
+    <p style="margin: 0.5rem 0 0 0;">TypeScript</p>
+  </div>
+  <div style="padding: 1rem; background: #F6F8FA; border-radius: 8px;">
+    <img src="https://prismalens.vercel.app/header-logo.svg" width="40">
+    <p style="margin: 0.5rem 0 0 0;">Prisma</p>
   </div>
 </div>
 
----
+## 📄 License
 
-## 📜 License
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the **[MIT License](LICENSE)** - see the [LICENSE](LICENSE) file for details.
 
-<div align="center" style="margin-top: 3rem;">
-  <a href="https://github.com/Nuu-maan/todo-webapp">
-    <img src="https://img.shields.io/badge/VIEW_REPOSITORY-181717?style=for-the-badge&logo=github">
-  </a>
+<div align="center" style="margin-top: 3rem; padding: 2rem 0; border-top: 1px solid #E1E4E8;">
+  <p style="color: #6A737D;">Built with ❤️ by equal contributors</p>
 </div>

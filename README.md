@@ -19,7 +19,10 @@
   <!-- Auth Card -->
   <div style="padding: 2rem; background: #f8f9fa; border-radius: 16px">
     <div style="display: flex; align-items: center; gap: 1rem; margin-bottom: 1rem">
-      <img src="https://kinde.com/logo-dark.svg" width="120" alt="Kinde Logo">
+      <img src="https://assets.website-files.com/6450b31696e25f8aa6cdd7b0/6450b31696e25f1d9dcdd8c7_Kindelogo.svg" 
+           width="120" 
+           alt="Kinde Logo"
+           style="display: block; height: auto; max-width: 100%">
       <h3 style="margin: 0">Enterprise Auth</h3>
     </div>
     <p>Secure authentication with Kinde including SSO, RBAC, and audit logs</p>
@@ -28,13 +31,15 @@
   <!-- Sync Card -->
   <div style="padding: 2rem; background: #f8f9fa; border-radius: 16px">
     <div style="display: flex; align-items: center; gap: 1rem; margin-bottom: 1rem">
-      <img src="https://swr.vercel.app/logo.svg" width="40" alt="SWR Logo">
+      <img src="https://swr.vercel.app/logo.svg" 
+           width="60" 
+           alt="SWR Logo"
+           style="display: block; height: auto; max-width: 100%">
       <h3 style="margin: 0">Real-time Sync</h3>
     </div>
     <p>Instant cross-device synchronization using SWR's stale-while-revalidate</p>
   </div>
 </div>
-
 ---
 
 ## 🛠️ Installation Guide

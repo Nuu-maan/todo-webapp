@@ -1,28 +1,45 @@
 <div align="center">
-  <h1>Next.js Todo Webapp</h1>
-  <p>A modern task management solution built with Next.js 15 🔥</p>
+  <h1>Todo Webapp</h1>
+  <h3>Enterprise Task Management Solution</h3>
 
-  <div>
-    <img src="https://img.shields.io/github/stars/Nuu-maan/todo-webapp?style=for-the-badge&logo=github&color=yellow" alt="Stars">
-    <img src="https://img.shields.io/github/forks/Nuu-maan/todo-webapp?style=for-the-badge&logo=github&color=green" alt="Forks">
-    <img src="https://img.shields.io/github/issues/Nuu-maan/todo-webapp?style=for-the-badge&logo=github&color=blue" alt="Issues">
-    <img src="https://img.shields.io/github/license/Nuu-maan/todo-webapp?style=for-the-badge&logo=mit" alt="License">
+  <div style="margin: 2rem 0;">
+    <img src="https://img.shields.io/github/stars/Nuu-maan/todo-webapp?style=flat-square&logo=github&color=blue" alt="Stars">
+    <img src="https://img.shields.io/github/contributors/Nuu-maan/todo-webapp?style=flat-square&logo=github" alt="Contributors">
+    <img src="https://img.shields.io/github/last-commit/Nuu-maan/todo-webapp?style=flat-square&logo=github" alt="Last Commit">
   </div>
 </div>
 
+---
+
+## 📋 Table of Contents
+- [Features](#-features)
+- [Installation](#-installation)
+- [Tech Stack](#-tech-stack)
+- [Architecture](#-architecture)
+- [Contributors](#-contributors)
+- [License](#-license)
+
+---
+
 ## ✨ Features
+<div style="columns: 2; column-gap: 2rem;">
+  <div>
+    ✔️ Enterprise Authentication<br>
+    ✔️ Real-time Synchronization<br>
+    ✔️ Role-based Access Control
+  </div>
+  <div>
+    ✔️ Cross-platform Support<br>
+    ✔️ CI/CD Pipeline Ready<br>
+    ✔️ Comprehensive Analytics
+  </div>
+</div>
 
-- 🚀 Next.js 15 App Router Architecture
-- 🔒 Kinde Authentication Integration
-- 📱 Responsive Mobile-First Design
-- 📦 Prisma ORM with PostgreSQL
-- 🎨 TailwindCSS Styling
-- 📝 Real-time Updates
-- ✅ TypeScript 5 Codebase
+---
 
-## 🚀 Quick Start
+## 📦 Installation
 
-```bash
+BASH
 # Clone repository
 git clone https://github.com/Nuu-maan/todo-webapp.git
 
@@ -36,44 +53,51 @@ cp .env.example .env.local
 # Start development server
 npm run dev
 BASH
-```
-## 🛠️ Tech Stack
 
-| Category       | Technologies                                                                 |
-|----------------|-----------------------------------------------------------------------------|
-| **Frontend**   | Next.js 15, React 18, TypeScript 5                                         |
-| **Styling**    | TailwindCSS 3, CSS Modules                                                 |
-| **Backend**    | Next.js API Routes, Prisma 5                                               |
-| **Database**   | PostgreSQL                                                                 |
-| **Auth**       | Kinde Authentication                                                       |
-| **Deployment** | Vercel                                                                     |
+---
+
+## 🛠 Tech Stack
+<table width="100%">
+  <tr>
+    <td width="33%"><strong>Frontend</strong></td>
+    <td width="33%"><strong>Backend</strong></td>
+    <td width="33%"><strong>DevOps</strong></td>
+  </tr>
+  <tr>
+    <td>• Next.js 15<br>• React 18<br>• TypeScript 5</td>
+    <td>• Node.js 20<br>• Prisma 5<br>• PostgreSQL</td>
+    <td>• Docker<br>• GitHub Actions<br>• Vercel</td>
+  </tr>
+</table>
+
+---
 
 ## 👥 Contributors
-
 <div align="center">
-  <a href="https://github.com/Nuu-maan">
-    <img src="https://avatars.githubusercontent.com/Nuu-maan" width="100" style="border-radius:50%;box-shadow:0 2px 8px rgba(0,0,0,0.2);margin:10px">
-    <br>
-    <strong>Nuu-maan</strong>
-  </a>
+  <div style="display: inline-block; margin: 1rem;">
+    <a href="https://github.com/Nuu-maan">
+      <img src="https://avatars.githubusercontent.com/Nuu-maan" width="80" style="border-radius:50%"><br>
+      <strong>Nuu-maan</strong><br>
+      <em>Lead Developer</em>
+    </a>
+  </div>
   
-  <a href="https://github.com/anisvsc">
-    <img src="https://avatars.githubusercontent.com/anisvsc" width="100" style="border-radius:50%;box-shadow:0 2px 8px rgba(0,0,0,0.2);margin:10px">
-    <br>
-    <strong>Anish Gupta</strong>
-  </a>
+  <div style="display: inline-block; margin: 1rem;">
+    <a href="https://github.com/anisvsc">
+      <img src="https://avatars.githubusercontent.com/anisvsc" width="80" style="border-radius:50%"><br>
+      <strong>Anish Gupta</strong><br>
+      <em>Core Contributor</em>
+    </a>
+  </div>
 </div>
 
-## 📄 License
+---
 
+## 📜 License
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-<div align="center" style="margin-top: 2rem;">
-  <p>Made with ❤️ by 
-    <a href="https://github.com/Nuu-maan" style="color: #0070f3; text-decoration: none;">Nuu-maan</a> • 
-    <a href="https://github.com/anisvsc" style="color: #0070f3; text-decoration: none;">Anish Gupta</a>
-  </p>
+<div align="center" style="margin-top: 3rem;">
   <a href="https://github.com/Nuu-maan/todo-webapp">
-    <img src="https://img.shields.io/badge/⭐_Star_this_Repo-%23FFD700?style=for-the-badge&logo=github">
+    <img src="https://img.shields.io/badge/VIEW_REPOSITORY-181717?style=for-the-badge&logo=github">
   </a>
 </div>

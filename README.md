@@ -7,7 +7,7 @@
 [![Open Issues](https://img.shields.io/github/issues/Nuu-maan/todo-webapp?style=for-the-badge&logo=git&color=FFA500&labelColor=000000)](https://github.com/Nuu-maan/todo-webapp/issues)
 [![License](https://img.shields.io/badge/license-MIT-97CA00?style=for-the-badge&logo=open-source-initiative&labelColor=000000)](LICENSE)
 
-![Star History Chart](https://api.star-history.com/svg?repos=Nu-maan/todo-webapp&type=Date&theme=dark)
+![Star History Chart](https://api.star-history.com/svg?repos=Nuu-maan/todo-webapp&type=Date&theme=dark)
 
 </div>
 
